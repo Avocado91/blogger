@@ -1,0 +1,339 @@
+/*************************************************
+                    GENERAL
+*************************************************/
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: 'Lora', serif;
+}
+
+.banner,
+.services,
+.testimonial,
+.contact {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  margin: 50px;
+}
+
+/*************************************************
+                    SOCIAL
+*************************************************/
+
+.social {
+  background: rgb(242, 108, 56);
+  border-bottom: 2px solid rgb(49, 67, 106);
+}
+
+.social-left span {
+  margin: 5px 2.5px;
+  font-size: 1.5em;
+}
+
+.social-left .fa-circle {
+  color: white;
+}
+
+.social-left i {
+  color: rgb(49, 67, 106);
+}
+
+.social-left i:hover {
+  color: rgb(242, 108, 56);
+}
+
+.social-right a {
+  float: right;
+  text-decoration: none;
+  color: rgb(49, 67, 106);
+  font-size: 1.1em;
+  margin-top: 15px;
+  padding: 0 10px;
+  border-left: 1px solid rgb(49, 67, 106);
+}
+
+.social-right a:hover {
+  color: white;
+}
+
+/*for 'archived news' link*/
+.social-right .no-border {
+  border-left: none;
+}
+
+/*************************************************
+                    HEADER
+*************************************************/
+
+.header {
+  background: rgba(49, 67, 106, 0.1);
+  padding-top: 70px;
+  padding-bottom: 180px;
+}
+
+.header img{
+  width: 200px;
+  margin-left: 12px;
+}
+
+.searchbar {
+  margin-top: 17px;
+  margin-right: 15px;
+}
+
+.searchbar input {
+  border: none;
+  border-radius: 7px 0 0 7px;
+  width: 250px;
+  padding: 8px 10px;
+}
+
+.searchbar button {
+  margin: 0 0 0 -4px;
+  padding: 5px 15px;
+  width: 100px;
+  height: 36px;
+  border: none;
+  text-transform: uppercase;
+  border-radius: 0 7px 7px 0;
+  color: white;
+  background: rgb(242, 108, 56);
+}
+
+/*************************************************
+                    MAIN
+*************************************************/
+
+.main {
+  margin-top: -110px;
+}
+
+.white-background {
+  background: white;
+  border-radius: 5px;
+}
+
+/*************************************************
+                    NAV
+*************************************************/
+
+.navbar {
+  background: rgb(242, 108, 56);
+  border-radius: 5px 5px 0 0;
+  text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: rgb(49, 67, 106);
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a:active {
+  color: white;
+}
+
+.pull-left {
+  margin-left: -25px;
+}
+
+/*************************************************
+                    BANNER
+*************************************************/
+
+.banner-background {
+  background: url(https://static1.squarespace.com/static/5525bbf5e4b026f75314c09b/t/5535055ee4b0f20e2b62ace7/1429538153345/blog.jpg?format=1500w);
+  height: 450px;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4),
+               4px 8px 13px rgba(0, 0, 0, 0.1),
+               18px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+.banner-caption {
+  background: rgba(0,0,0,0.6);
+  color: white;
+  text-align: center;
+  width: 40%;
+  float: right;
+  margin: 260px 30px 0 0;
+  border-radius: 10px;
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+/*************************************************
+                    SERVICES
+*************************************************/
+
+.services {
+  color: rgb(49, 67, 106)
+}
+
+.services i {
+  padding: 0;
+  font-size: 4em;
+  margin-top: 15px;
+}
+
+.second-row {
+  margin-top: 30px;
+}
+
+/*************************************************
+                    TESTIMONIAL
+*************************************************/
+
+.testimonial {
+  color: rgb(49, 67, 106);
+  margin-bottom: 50px;
+
+}
+
+.testimonial i {
+  padding: 0;
+  font-size: 5em;
+}
+
+.testimonial h5,
+.testimonial h3 {
+  display: inline-block;
+  margin-bottom: 20px;
+
+}
+
+/*************************************************
+                    CONTACT
+*************************************************/
+
+.contact {
+  background: rgb(242, 108, 56);
+  padding-left: 20px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 50px;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4),
+               4px 8px 13px rgba(0, 0, 0, 0.1),
+               18px 18px 23px rgba(0, 0, 0, 0.1);
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+.contact h1 {
+  font-size: 2.8em;
+}
+
+.contact button {
+  border: none;
+  background: white;
+  color: rgb(242, 108, 56);
+  border-radius: 10px;
+  width: 300px;
+  height: 60px;
+  text-transform:uppercase;
+  font-size: 1.7em;
+  margin: 28px 40px 0 0;
+  float: right;
+  box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+               0px 8px 13px rgba(0, 0, 0, 0.1),
+               0px 18px 23px rgba(0, 0, 0, 0.1);
+
+}
+
+/*************************************************
+                    FOOTER
+*************************************************/
+
+.footer {
+  background: rgba(49, 67, 106, 0.1);
+  border-top: 7px solid rgba(49, 67, 106, 0.2);
+  padding-top: 30px;
+  color: #666;
+}
+
+.footer h4 {
+  font-size: 1.2em;
+  color: rgb(49, 67, 106);
+}
+
+.title {
+  margin-bottom: 30px
+}
+
+.footer img {
+  padding-left: 0;
+  padding-right: 0;
+  width: 100px;
+  margin-right: 15px;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.4),
+               4px 8px 13px rgba(0, 0, 0, 0.1),
+               18px 18px 23px rgba(0, 0, 0, 0.1);
+}
+
+.article {
+  margin: 30px 0;
+}
+
+.company a {
+  color: rgb(242, 108, 56);
+}
+
+.contact-form input,
+.contact-form textarea {
+  border: none;
+  display: block;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.contact-form .button {
+  width: 100px;
+  background-color: rgb(242, 108, 56);
+  color: white;
+  text-transform: uppercase;
+}
+
+.copyright {
+  background-color: rgb(242, 108, 56);
+  border-top: 2px solid rgb(49, 67, 106);
+  padding: 10px 0;
+  color: rgb(49, 67, 106);
+}
+
+.copyright p {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+/* COLOUR PALLETE
+
+orange
+rgb(242, 108, 56)
+
+blue
+rgb(49, 67, 106)
+*/
